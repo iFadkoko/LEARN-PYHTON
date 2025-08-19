@@ -3,4 +3,4 @@ def format_waktu(detik):
     sisa_detik = detik % 60
     return f"{menit:02d}:{sisa_detik:02d}"
 
-print(format_waktu(150))  # Output: 02:30
+print(format_waktu(150)) 
